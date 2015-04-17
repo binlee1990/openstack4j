@@ -59,6 +59,13 @@ public interface FloatingIP extends ModelEntity {
    * @return the port id
    */
   public abstract String getPortId();
+  
+  /**
+   * Gets the status.
+   *
+   * @return the status
+   */
+  public abstract String getStatus();
 
   /**
    * Sets the id.
@@ -108,5 +115,12 @@ public interface FloatingIP extends ModelEntity {
    * @param portId the new port id
    */
   public abstract void setPortId(String portId);
+  
+  /**
+   * Sets the status.
+   *
+   * @param portId the new port id
+   */
+  public abstract void setStatus(String status);
 
 }
